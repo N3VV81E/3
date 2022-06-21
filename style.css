@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+.clearfix::before , .clearfix::after {display: block; content: ''; clear: both;}
+
+#wrap{width: 1000px; margin: 0 auto;}
+#side{float: left; width: 200px; height: 650; background: #ccc;}
+#content{float: left; width: 800px; height: 650; background: #ddd;}
+
+#side .logo{width: 200px; height: 150px; background: #777;}
+#side .nav{width: 200px; height: 500px; background: #888;}
+
+#banner{width: 800px; height: 350px; background: #666; overflow: hidden;}
+.sd a{width: 800px; height: 350px; display: inline-block;}
+
+#contents{}
+#contents > div{float: left; width: 33.333%; height: 200px;}
+#contents > div.cont1{background: #555;}
+#contents > div.cont2{background: #444;}
+#contents > div.cont3{background: #333;}
+
+#footer{}
+#footer .foot1{float: left; width: 100px; height: 100px; background: #aaa;}
+#footer .foot2{float: left; width: 700px; height: 50px; background: #bbb;}
+#footer .foot3{float: left; width: 700px; height: 50px; background: #ccc;}
